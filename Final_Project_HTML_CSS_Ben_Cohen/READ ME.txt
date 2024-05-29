@@ -1,0 +1,2 @@
+The "Submit" button on the "Contact" page is not doing anything, its just there for designing purposes.
+The "Thumb Up/Thumb Down" buttons on the "Funny Moments" page are highlighted when clicking either of them, but are not doing anything other than that. (again, there for designing purposes)

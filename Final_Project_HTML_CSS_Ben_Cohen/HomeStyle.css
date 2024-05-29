@@ -1,0 +1,12 @@
+﻿.yt iframe {
+  width: 100%;
+}
+
+.a {
+  margin-top: 15px;
+  margin-right: 50px;
+  padding-left: 50px;
+  color: white;
+  text-shadow: -1.2px 0 black, 0 1px black, 1px 0 black, 0 -1.2px black;
+  letter-spacing: 0.5px;
+}

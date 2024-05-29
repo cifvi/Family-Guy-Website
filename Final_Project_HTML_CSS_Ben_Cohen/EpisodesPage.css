@@ -1,0 +1,73 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+body {
+    color:white;
+}
+.a {
+  margin-top: 15px;
+  margin-right: 50px;
+  padding-left: 50px;
+  color: white;
+  text-shadow: -1.5px 0 black, 0 2px black, 2px 0 black, 0 -1.5px black;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+ol {
+  padding: 1.5rem 1.5rem 1.5rem 4em;
+  border: 0.3rem solid #fff;
+  columns: 25rem;
+  column-gap: 7rem;
+  column-rule: 4px dotted #fff;
+  border-radius: 1rem;
+}
+
+ol > * + * {
+  margin-top: 1rem;
+}
+
+li {
+  break-inside: avoid;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color:white;
+}
+
+::marker {
+  content: counters(list-item, "") ": ";
+  font-weight: 700;
+}
+
+#midtitle1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+#midtitle2 {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+}
+
+.link {
+    color: white;
+    text-shadow: -1.5px 0 black, 0 2px black, 2px 0 black, 0 -1.5px black;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: white;
+}
+.link a {
+  color: white;
+}
